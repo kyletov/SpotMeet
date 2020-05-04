@@ -1,0 +1,224 @@
+body {
+    background-image: url();
+    background-color:  #e4e4e4;
+}
+.password_forgot {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: medium;
+    color: green;
+}
+
+div.container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.login_title {
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+.login_controls {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    align-self: center;
+}
+
+.login_btn, .join_button {
+    width: 150px;
+    height: 50px;
+    float: center;
+    color: black;
+    background-color: rgb(163, 221, 187);
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label {
+    position: relative;
+    display: block;
+    margin: auto;
+    font-size: large;
+    font-weight: 700;
+}
+
+input {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black;
+    padding: 5px;
+}
+#password {
+    margin-bottom: 0px;
+}
+.login_box{
+    align-content: center;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border:1px black;
+    border-radius: 10px;
+    margin: auto;
+    width: 400;
+    height: 450px;
+    padding: 30px;
+}
+
+
+.top_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.search_input {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black;
+}
+
+.search_button {
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 42px;
+}
+
+li.search_bar {
+    float: right;
+    border-left: none;
+}
+
+li {
+    float: right;
+    border-left: 1px solid #bbb;
+}
+
+li:first-child {
+    float: left;
+    border-left: none;
+    border-right: 1px solid #bbb;
+
+}
+
+li:last-child {
+    border-left: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.activities{
+    align-content: center;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border:1px black;
+    border-radius: 10px;
+    margin: auto;
+    width: 400;
+    height: 450px;
+    padding: 30px;
+}
+
+.profile_user{
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border:1px black;
+    border-radius: 10px;
+    margin: auto;
+    width: 500;
+    height: 1000px;
+    padding: 30px;
+}
+
+.profile_hr {
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: lightgray;
+    width : 30%;
+    size: 1px;
+}
+
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.Profile_h1{
+    text-align: center;
+}
+
+#profile-image1 {
+    cursor: pointer;
+
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;}
+.tital{ font-size:16px; font-weight:500;}
+.bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}
